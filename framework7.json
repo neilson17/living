@@ -1,0 +1,31 @@
+{
+  "cwd": "D:\\Education\\Semester 5\\Hybrid Mobile Programming\\Project UTS\\living",
+  "type": [
+    "cordova"
+  ],
+  "name": "160419037_ProjectUTS",
+  "pkg": "io.framework7.myapp",
+  "framework": "core",
+  "template": "blank",
+  "bundler": false,
+  "cordova": {
+    "folder": "cordova",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "plugins": [
+      "cordova-plugin-statusbar",
+      "cordova-plugin-keyboard",
+      "cordova-plugin-splashscreen"
+    ]
+  },
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false
+  },
+  "customBuild": false
+}

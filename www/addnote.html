@@ -1,0 +1,66 @@
+<div class="page" data-name="addnote">
+    <div class="navbar">
+        <div class="navbar-bg"></div>
+        <div class="navbar-inner sliding">
+            <div class='left'>
+                <a class="link back" style='padding: 0 !important;'>
+                    <i class='f7-icons'>chevron_left</i>
+                </a>
+            </div>
+            <div class='middle'>
+                <p>Add Note</p>
+            </div>
+        </div>
+    </div>
+    <div class="page-content">
+        <form method="POST" class="form-ajax-submit">
+            <div class="list no-hairlines-md">
+                <ul>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-label">Title</div>
+                            <div class="item-input-wrap">
+                                <input type="text" id='tx_title' placeholder="Note Title" />
+                                <span class="input-clear-button"></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                          <div class="item-title item-label">Content</div>
+                          <div class="item-input-wrap">
+                            <textarea id='tx_content' class="resizable" style='white-space: pre-line;' placeholder="Note Content"></textarea>
+                          </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-label">Notebook</div>
+                            <div class="item-input-wrap">
+                                <select placeholder="Add Category" id="sel_notebook">
+
+                                </select>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-label">Category</div>
+                            <div class="item-input-wrap">
+                                <select placeholder="Add Category" id="sel_category">
+
+                                </select>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <input type="button" name="btnsubmit" id="btnsubmit" class="button button-fill"
+                                value="SUBMIT">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </form>
+    </div>
+</div>
